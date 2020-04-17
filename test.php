@@ -9,7 +9,7 @@ echo "zadek";
 echo"<br>";
 print(TRUE);
 echo"čau "."zdravim ";
-echo"<img src\"rouška3.jpg\">";
+echo"<img src=\"rouška2.jpg\">";
 echo"\\";
 
 $a = 9;

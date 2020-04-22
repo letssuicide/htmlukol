@@ -91,27 +91,27 @@ $a = 9;
              $janHostalek1=1;
              $janHostalek2=1;
              if(true){
-                 echo "Hošťálek Jan";
+                 echo "Hošťálek Jan<br>";
              }
              if ($janHostalek1 > $janHostalek2){
-                 echo "Jan";
+                 echo "Jan<br>";
              }
               
              if ($janHostalek1 > $janHostalek2){
-                 echo "Hošťálek";
+                 echo "Hošťálek<br>";
              }
              else{
-                     echo"Hošťálek"; 
+                     echo"Hošťálek<br>"; 
              }
               
              if ($janHostalek1 >= $janHostalek2){
-                 echo "Hošťálek";
+                 echo "Hošťálek<br>";
              }
               
              if ($janHostalek1 == $janHostalek2){
-                 echo "Jan";
+                 echo "Jan<br>";
              }
-             switch ($janHostalek){
+             switch ($janHostalek1){
                  case 0:
                      break;
                  case 1:
@@ -127,6 +127,7 @@ $a = 9;
                      break;
                  default:
                      break;
+             }
                  $produkty = array(1 =>"kk", 2=>"kk1", 3=>"kk2", 4=>"kk3", 5=>"kk4", 6=>"kk5", 7=>"kk6", 8=>"kk7", 9=>"kk8", 10=>"kk9");
                  var_dump($produkty);
                   $produkty ["ok1"] = array();
